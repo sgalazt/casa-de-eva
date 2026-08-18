@@ -1,10 +1,10 @@
-root {
+:root {
     --nav-height: 60px;
 }
 * {box-sizing: border-box;}
 
 #inicio, #productos, #contacto{
-    height: 100 vh;
+    height: 100vh;
     padding-top: var(--nav-height);
 }
 
@@ -39,8 +39,8 @@ nav {
 .marca-barra{
     display: flex;
     justify-content: center;
-    padding top: 36px;
-    padding bottom: 28px;
+    padding-top: 36px;
+    padding-bottom: 28px;
 }
 
 .marca-barra a{
@@ -49,6 +49,6 @@ nav {
 
 .marca-barra img {
     display: block;
-    width: 200 px;
-    heigth: 64 px;
+    width: 200px;
+    heigth: 64px;
 }
