@@ -15,9 +15,40 @@ nav {
     width: 100vw;
 }
 
-bar-brand img{
-    display:block;
-    width: 200px;
-    height: 64px;
-    transition: 0,35s;
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 99;
+}
+
+.banda{
+    height: 32px;
+    background-color: #522409;
+}
+
+.layout-barra{
+    position: relative;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.marca-barra{
+    display: flex;
+    justify-content: center;
+    padding top: 36px;
+    padding bottom: 28px;
+}
+
+.marca-barra a{
+    display: inline-block;
+}
+
+.marca-barra img {
+    display: block;
+    width: 200 px;
+    heigth: 64 px;
 }
