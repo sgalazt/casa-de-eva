@@ -39,7 +39,7 @@ nav {
 .marca-barra{
     display: flex;
     justify-content: center;
-    padding-top: 24px;
+    padding-top: 12px;
     padding-bottom: 28px;
 }
 
